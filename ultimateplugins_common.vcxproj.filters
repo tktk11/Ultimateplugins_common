@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="EventFunctors.h" />
+    <ClInclude Include="DummyMenu.h" />
+    <ClInclude Include="UPCommon.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DummyMenu.cpp" />
+    <ClCompile Include="UPCommon.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="EventFunctors_Base.inl" />
+    <None Include="EventFunctors.inl" />
+  </ItemGroup>
+</Project>
